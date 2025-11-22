@@ -1,0 +1,144 @@
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fffdf8;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* HEADER */
+#header {
+    background-image: url(images/header.jpg);
+    border-bottom-right-radius: 50px;
+    width: 730px;
+    height: 300px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+    float: right;
+}
+
+#judul {
+    font-size: 50px;
+    text-align: right;
+    padding: 200px 40px 0 0;
+}
+
+#judul a {
+    color: #f5e6d3; /* krem */
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.desc {
+    font-size: 20px;
+    color: #f5e6d3;
+    text-align: right;
+    padding: 0 40px 0 0;
+}
+
+/* MENU */
+#menu ul {
+    float: right;
+    background: #6B4226; /* coklat tua */
+    padding: 0;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+    list-style: none;
+    width: 730px;
+}
+
+#menu ul li {
+    float: left;
+}
+
+#menu ul li:hover {
+    background: #A47148; /* coklat lebih terang */
+}
+
+#menu ul li a {
+    display: block;
+    color:white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#menu ul ul {
+    background: #6B4226;
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+#menu ul li:hover > ul {
+    display: block;
+}
+
+/* SIDEBAR */
+#kiri {
+    border-top-left-radius: 50px;
+    background-color: white;
+    width: 250px;
+    float: left;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+
+#kiri h2 {
+    margin: 0;
+    padding: 8px 12px;
+    color: white;
+    font-size: 20px;
+    background: #6B4226;
+}
+
+#kiri a {
+    display: block;
+    padding: 6px 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px dotted #A47148;
+}
+
+#kiri a:hover {
+    background: #A47148;
+    color: white;
+}
+
+/* KONTEN */
+#konten {
+    background-color: #fffdf8;
+    width: 690px;
+    padding: 20px;
+    float: right;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+
+.posttitle {
+    font-size: 28px;
+    font-family: 'Georgia', serif;
+    color: #6B4226;
+    margin-bottom: 10px;
+}
+
+.post {
+    margin: 0 20px 20px 20px;
+    text-align: justify;
+}
+
+/* GALERI */
+img {
+    width: 30%;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+#footer {
+    background-color: #6B4226;
+    padding: 20px 0;
+    width: 1000px;
+    height: 90px;
+    clear: both;
+    text-align: center;
+    color: #f5e6d3;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}

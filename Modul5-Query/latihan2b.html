@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan 2b</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #fff;
+      padding: 20px;
+      border: 2px solid red;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .services {
+      border: 2px solid red;
+      padding: 10px;
+    }
+    .services h2 {
+      margin-top: 0;
+    }
+
+    .boxes {
+      display: flex;          /* FLEX digunakan */
+      flex-wrap: wrap;        /* supaya responsif */
+      gap: 10px;
+    }
+
+    .box {
+      background: red;
+      color: #fff;
+      padding: 20px;
+      flex: 1 1 200px;   /* grow, shrink, basis */
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Header
+  </header>
+
+  <section class="services">
+    <h2>Services</h2>
+    <div class="boxes">
+      <div class="box">BOX 1</div>
+      <div class="box">BOX 2</div>
+      <div class="box">BOX 3</div>
+      <div class="box">BOX 4</div>
+    </div>
+  </section>
+</body>
+</html>
