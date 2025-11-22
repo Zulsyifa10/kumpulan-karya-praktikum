@@ -1,16 +1,16 @@
-\# Kumpulan Karya Praktikum
+Kumpulan Karya Praktikum
 
 
 
-Nama	: \[Nama Anda]
+Nama	: Nadhira Zulsyifa S.
 
-NIM	: \[NIM Anda]
+NIM	: K3524082
 
-Kelas	: \[Kelas Anda]
+Kelas	: B
 
 
 
-\## Daftar Praktikum
+Daftar Praktikum
 
 
 
@@ -32,9 +32,7 @@ Kelas	: \[Kelas Anda]
 
 
 
-\## Deskripsi
+Deskripsi
 
 Repository ini berisi kumpulan hasil praktikum selama semester 3.
-
-
 
